@@ -23,7 +23,10 @@
       "@/*": [
         "src/*"
       ]
-    }
+    },
+  },
+  "vueCompilerOptions": {
+    "experimentalDisableTemplateSupport": true
   },
   "exclude": [
     "dist",
