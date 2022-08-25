@@ -7,9 +7,17 @@
       "DOM",
       "ESNext"
     ],
+    "allowSyntheticDefaultImports": true,
+    "strictFunctionTypes": false,
+    "preserveValueImports": false,
     "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
     "esModuleInterop": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
     "incremental": false,
+    "noImplicitAny": false,
     "skipLibCheck": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -24,9 +32,6 @@
         "src/*"
       ]
     },
-  },
-  "vueCompilerOptions": {
-    "experimentalDisableTemplateSupport": true
   },
   "exclude": [
     "dist",
